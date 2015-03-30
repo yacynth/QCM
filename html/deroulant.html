@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>menu deroullantt</title>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="jquery-ui.js"></script>
+</head>
+<style>
+#menu{
+	width:100%;margin:0;list-style:none;background:#111;
+	border-radius:20px; box-shadow:0 5px 1px #9c9c9c;
+	}
+#menu li{
+    float:left;
+	padding:0 0 10px 0;
+	position:relative;
+}
+#menu a{
+	float:left;
+	height:25px;
+	padding:0 25px;
+	color:#999;text-transform:uppercase;text-decoration:none;
+	font-weight:bold;text-shadow:0 1px 0 #000;
+	}
+#menu li:hover >a{
+	color:#fafafa;
+}
+#menu li:hover >ul{
+	display:block;
+}
+#menu ul{
+	list-style:none;margin:0;padding:0;display:none;
+	position:absolute;top:30px;left:0;
+	z-index:99999;border-radius:6px;
+	background:#33F;
+	}
+#menu ul li{
+	float:none;margin:0;padding:0;display:block;
+	box-shadow:0 2px 0 #111111;
+}
+#menu ul a{
+	 line-height:1;float:none;white-space:nowrap;
+}
+#menu ul a:hover{
+	background:#0186ba;
+}
+#menu ul li:first-child a:{border-radius:5px;}
+
+	
+</style>
+<body>
+   <ul id="menu">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Categories</a>
+          <ul>
+             <li><a href="#">Css</a></li>
+             <li><a href="#">Graphic d</a></li>
+             <li><a href="#">Development</a></li>
+             <li><a href="#">Web design</a></li>
+          </ul>
+      </li>
+      <li><a href="#">Work</a>
+          <ul>
+             <li><a href="#">Education</a></li>
+             <li><a href="#">business</a></li>
+          </ul>
+      </li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+   
+  </ul>
+  <script>
+    $(document).ready(function(e) {
+        $("li").has("ul").mouseover(function(e) {
+            $(this).children("ul").show();}).mouseout(function(e) {
+                $(this).children("ul").hide();
+            });
+        
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html >
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<link rel="stylesheet" href="../css/styleupload.css" />
+</head>
+<body>
+  <div id="formulaire">
+     <form method="post" action="../php/upload.php" enctype="multipart/form-data" >
+       <h3>Vous etez enseignant et vous voulez deposer le test pour vos etudiants.veillez remplir ces informations pour 
+       permettre a vos etudiants d'acceder a votre test.</h3>
+        <fieldset id="infos">
+           <br/>
+          <legend>Uploaded votre devoir sur la platforme</legend>
+            <label>Votre nom :</label><input type="text" name="nom" required placeholder="votre nom ici"/><br/><br/>
+            <label>Nom de examen</label><input type="text" name="examen" required placeholder="le nom de votre exament" /><br/><br/>
+            <label>Adresse email :</label><input type="text" name="email" required placeholder="votre adresse email"/><br/><br/>
+            <label>Questionnaire</label><input type="file" name="questionnaire" placeholder="le fichier de vos questions"/><br/><br/>
+       </fieldset>
+       <input type="submit" value="Envoyer"/>
+       <input type="reset" value="Reprendre"/>
+     </form>
+  </div>
+  <?php
+  
+  ?>
+</body>
+</html>

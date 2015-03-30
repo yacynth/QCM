@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+@-webkit-keyframes monanimation{
+	0%{background:url(../images/image1.jpg) no-repeat;}
+	25%{background:url(../images/image2.jpg) no-repeat;}
+	50%{background:url(../images/image3.jpg) no-repeat;}
+	75%{background:url(../images/image4.jpg) no-repeat;}
+	100%{background:url(../images/logo.png) no-repeat;}
+	}
+	
+#animation_acceuil{
+	width:50%;
+	height:60%;
+	margin-left:15%;
+	margin-top:3%;
+	border:solid 2px #990;
+	box-shadow:5px 3px 2px #000;
+	min-height:300px;
+	-webkit-animation-name:monanimation;
+	-webkit-animation-duration:10s;
+	-webkit-animation-iteration-count:infinite;
+}
+#description_acceuil{
+	margin-left:20%;
+	margin-top:3%;
+	padding: 2%;
+	background:#CCC;
+	font-size:130%;
+	font-weight:bold;
+	width:40%;
+	border: solid 3px #990;
+}
+hr{width:50%;margin-left:15%;margin-right:15%;}

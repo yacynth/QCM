@@ -1,0 +1,61 @@
+k<!DOCTYPE html>
+<html>
+<head>
+<title>Untitled Document</title>
+<style>
+#bu{
+ position:relative;width:120px;	color:#fff;display:block;
+ text-decoration:none;font-size:150%;font-weight:600;
+ border-radius:5px;border: solid 5px #D94E3B;
+ background:#cb3b27;text-align:center;
+ padding:20px 30px;
+ transition:all 0.1s;
+ box-shadow:0px 9px 0px #84261a;
+}
+#bu:active{box-shadow:0px 2px 0px #84261a;
+         position:relative;
+		 top:-7px;left:2px;
+}
+#bonjour{
+   background:#eeeeee;border:solid 2px #a1a1a1;
+   margin:0.5em;text-decoration:none;color:#333;
+   border-radius:0.2em;width:100px;padding:3px;
+}
+#bonjour:before{
+	content:"\262E";
+	text-align:left;
+}
+@-webkit-keyframes monanimation {
+	0%{background:#0FF;font-size:150%;transform:translateX(2%);}
+	50%{background:#C0C;font-size:200%;}
+	75%{transform:skewX(20%);}
+	100%{background:#909;font-style:oblique;transform:translateX(30%);}
+	}
+#animation{
+	border:solid #CC0 3px;
+    padding:10px;width:50%;	
+	-webkit-animation-name: monanimation;
+	-webkit-animation-duration:10s;
+	-webkit-animation-iteration-count:infinite;
+}
+</style>
+</head>
+<body>
+<div id="bouton">
+   <h1>bouton 3D</h1>
+    <a href="#" id="bu">
+       Push me
+    </a>
+    
+ </div> <br/><br/>
+ 
+ <input type="checkbox" >content</input>
+ <div>
+  <button id="bonjour">bonjour</button>
+ </div>
+ <div id="animation">
+     voici mon premiere teste sur les animations<br/>
+      et les effects simple des animations css.
+ </div>
+</body>
+</html>

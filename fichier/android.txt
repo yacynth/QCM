@@ -1,0 +1,31 @@
+Intitulé: programmation android.
+Session: janvier.
+Enseignant: Ndonna Yacynth-Bolan.
+Durée: 1 mn.
+ 1- Quel est le nom du os moblile le plus utilisé dans le monde.
+    android
+	ios
+	window pone
+ 2- Quel le nom donné a la version 5.0 de Android.
+    ice cream sandwich
+	lollip pop
+	froyo
+ 3- Que signifie ADT
+    Android developement tool
+	Android devfest task
+	Android developement toolkit
+ 4- Quel est le numero de la premiere machine virtuel android
+    5554
+    5550
+    7444
+ 5- Android est basé sur le noyau 
+    Linux
+	windows
+	mac
+	
+	//
+	android
+	lollip pop
+	android developpement tool
+	5554
+	Linux

@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+body{background:;}
+#formulaire{
+	width:50%;
+	border:solid 3px #CCC;
+	margin:5% 20%;
+}
+#infos input{float:right;width:50%;}
+#infos label{font-size:130%;font-weight:bold;}
+legend{font-size:150%;font-weight:bold;}
+
+
+

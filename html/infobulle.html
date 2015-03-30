@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>infobulle</title>
+<style>
+ a{colr:#ccc;text-shadow:0 -1px black;}
+a:hover,a:focus{background:rgba(0,0,0,0.4);
+  box-shadow:0 1px 0 rgba(255,255,255,0.4);}
+ a span{position:absolute;margin-top:23px;margin-left:-35px
+ ; color:#09c;background:rgba(0,0,0,0.9);border-radius:3px;
+ box-shadow:0 0 2px rgba(0,0,0,0.5);
+ transform:scale(0) rotate(-12deg); transition: all 0.25s;
+ opacity:0;}
+ a:hover span,a:focus span{
+	 transform:scale(1) rotate(0);
+	 opacity:1;
+ }
+</style>
+</head>
+<body>
+  <p>
+    <a href="#">hover Me!
+            <span>I am a popup......</span>
+     </a>        
+  </p>
+</body>
+</html>

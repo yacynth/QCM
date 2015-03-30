@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+#option{
+	height:100px;
+	width:100%;
+	background:#CCF;
+	margin:0;
+}
+#formulaire{
+	width:50%;
+	border:solid 3px #CCC;
+	margin:5% 20%;
+}
+#infos input{float:right;width:50%;}
+#infos label{font-size:130%;font-weight:bold;}
+legend{font-size:150%;font-weight:bold;}
+
+#option ul li{
+	     display:inline;
+             margin:0% 2% 2% 1%;
+			 padding:5px;
+			 border-radius:3px;
+			 
+			 background:#C96;
+			 color:#000;
+			 list-style:none;
+			 font-size:25px;
+}
+#option div{display:inline-block;}
+#menu{width:75%;vertical-align:top;margin-top:20px;}
+#central_inscription{
+	width:50%;
+	margin-left:25%;
+	margin-top:5%;
+}
+#logo{width:98px;
+       height:98px;
+	   }
+#central_inscription label{
+	font-size:150%;
+	font-weight:bold;
+}
+#central_inscription fieldset input{
+	float:right;
+	width:30%;
+}
+#option_connexion{
+	width:10%;
+	float:right;
+	margin-right:3%;
+	display:none;
+}
+#deconnexion{display:none;}
+#option_connexion #deconnexion{
+	vertical-align:bottom;
+}
+#central_selection{
+	border:solid #999 ;
+	margin: 5% 20%;
+}
+#central_selection table{
+	border-collapse:collapse;
+	width:80%;
+	margin-left:10%;
+	margin-bottom:5%;
+}
+#central_selection h1{text-align:center;}
+caption{font-size:20px;font-weight:800;}
+th,td{
+	border:2px solid #0F0;text-align:center;
+}
+th{font-size:20px;
+font-weight:bold;
+}
+/*gestion de l image des table */
+.img_composer{width:60px;height:30px;}
+
+#resultat td{
+	text-align:left;height:10px;font-size:110%;font-weight:bold;
+}

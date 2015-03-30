@@ -1,0 +1,24 @@
+Intitulé: Google exam.
+Session: janvier.
+Enseignant: Jeminatu.
+Durée: 1 mn.
+ 1- Quel est le navigateur de google.
+    mozilla
+	opera
+	chrome
+ 2- Quel la messagerie de google.
+    gmail
+	hotmail
+	yahoo
+ 3- Quel est le reseau social de google 
+    facebook
+	google+
+    viber
+ 4- le nom de l un des fondateur de google
+    ndonna
+    serge brin
+    thomas
+ 5- le nom du GSA de polytchnique cameroun 
+    ndonna
+	pierre 
+	vincent

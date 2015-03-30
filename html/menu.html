@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Untitled Document</title>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="jquery-ui.js"></script>
+<style>
+  #accordeon{
+	  margin:100px;
+	  padding:2%;width:70%;font-weight:600;
+	  border:double;
+  }
+  #accordeon h3{
+	  display:inline;
+	  background:#C93;
+	  margin:2%;
+  }
+</style>
+</head>
+<body>
+ <div id="accordeon">
+      <h3>Acceuil</h3>
+          <div>
+                 <p>presentation</p>
+                 <p>fonctionnement</p>
+                 <p>principe</p>
+          </div>
+      <h3>Documentation</h3>
+          <div>
+             <p>Mathematique</p>
+             <p>Physique</p>
+             <p>Science</p>
+          </div>    
+      <h3>Orientation</h3>
+          <div>
+             <p>ce qui faut faire</p>
+             <p>ce qui ne faut pas faire</p>
+             <p>securite</p>
+          </div>
+ </div>
+ <script>
+    $(document).ready(function(e) {
+        $("#accordeon").accordion({
+			event:'mouseover'
+			 
+			
+			});
+    });
+ 
+ </script>  
+</body>
+</html>
